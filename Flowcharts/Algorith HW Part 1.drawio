@@ -1,6 +1,50 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.7">
-  <diagram name="Page-1" id="NkV_ExLqYGkyESvwtrc_">
-    <mxGraphModel dx="1985" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.7" pages="2">
+  <diagram name="Part 1" id="NkV_ExLqYGkyESvwtrc_">
+    <mxGraphModel dx="650" dy="1841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3rYhzZAjoDPHwLlb0dHM-2" value="Specifications&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Inputs&lt;br&gt;amountOfStudents&lt;br&gt;&lt;br&gt;Outputs&lt;div&gt;amountPerStudent&lt;br&gt;&lt;/div&gt;&lt;br&gt;Initialization&lt;br&gt;utilities = 200&lt;br&gt;&lt;br&gt;Processing&lt;br&gt;amount = utilities / amountOfStudents" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="-1" width="180" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sdVaJP0y2LW_tPCaWrj9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sdVaJP0y2LW_tPCaWrj9-1" target="sdVaJP0y2LW_tPCaWrj9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sdVaJP0y2LW_tPCaWrj9-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sdVaJP0y2LW_tPCaWrj9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sdVaJP0y2LW_tPCaWrj9-2" target="sdVaJP0y2LW_tPCaWrj9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sdVaJP0y2LW_tPCaWrj9-2" value="utilities = 200" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sdVaJP0y2LW_tPCaWrj9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sdVaJP0y2LW_tPCaWrj9-3" target="sdVaJP0y2LW_tPCaWrj9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sdVaJP0y2LW_tPCaWrj9-3" value="amountPerStudent = utilities / amountOfStudents" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sdVaJP0y2LW_tPCaWrj9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sdVaJP0y2LW_tPCaWrj9-4" target="sdVaJP0y2LW_tPCaWrj9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sdVaJP0y2LW_tPCaWrj9-4" value="Enter amountOfStudents" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sdVaJP0y2LW_tPCaWrj9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sdVaJP0y2LW_tPCaWrj9-5" target="sdVaJP0y2LW_tPCaWrj9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sdVaJP0y2LW_tPCaWrj9-5" value="Input amountOfStudents" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sdVaJP0y2LW_tPCaWrj9-6" value="print amountPerStudent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VN5FMXnoflKG12c8h2te" name="Part 2">
+    <mxGraphModel dx="520" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

@@ -37,17 +37,77 @@
         <mxCell id="sdVaJP0y2LW_tPCaWrj9-5" value="Input amountOfStudents" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="280" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="N4N8zkVxUAhuJM-yu1ho-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sdVaJP0y2LW_tPCaWrj9-6" target="N4N8zkVxUAhuJM-yu1ho-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sdVaJP0y2LW_tPCaWrj9-6" value="print amountPerStudent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4N8zkVxUAhuJM-yu1ho-1" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="530" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="VN5FMXnoflKG12c8h2te" name="Part 2">
-    <mxGraphModel dx="520" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="612" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Io7SWc49E7Gr9D7LyZq6-1" value="Specifications&lt;br&gt;Input&lt;br&gt;amountOfWorkers&lt;br&gt;&lt;br&gt;Output&lt;br&gt;finalPayout&lt;br&gt;afterTax&lt;br&gt;&lt;br&gt;Initialization&lt;br&gt;tax = 0.15&lt;br&gt;prize = 555,000&lt;br&gt;&lt;br&gt;Processing&lt;br&gt;afterTax = prize * tax&lt;br&gt;finalPayout = afterTax / amountOfWorkers&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Rs-ShA2vG2097O5uDx5C-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ok1GRO6ySu9OxEe4d-vU-1" target="ok1GRO6ySu9OxEe4d-vU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ok1GRO6ySu9OxEe4d-vU-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rs-ShA2vG2097O5uDx5C-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ok1GRO6ySu9OxEe4d-vU-2" target="OyKGLVzcR5PwU6N0yC-r-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ok1GRO6ySu9OxEe4d-vU-2" value="tax = 0.15" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rs-ShA2vG2097O5uDx5C-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OyKGLVzcR5PwU6N0yC-r-1" target="OyKGLVzcR5PwU6N0yC-r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OyKGLVzcR5PwU6N0yC-r-1" value="prize = 555,000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rs-ShA2vG2097O5uDx5C-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OyKGLVzcR5PwU6N0yC-r-2" target="OyKGLVzcR5PwU6N0yC-r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OyKGLVzcR5PwU6N0yC-r-2" value="Enter amountOfWorkers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rs-ShA2vG2097O5uDx5C-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OyKGLVzcR5PwU6N0yC-r-3" target="OyKGLVzcR5PwU6N0yC-r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OyKGLVzcR5PwU6N0yC-r-3" value="Input amountOfWorkers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rs-ShA2vG2097O5uDx5C-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OyKGLVzcR5PwU6N0yC-r-4" target="OyKGLVzcR5PwU6N0yC-r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OyKGLVzcR5PwU6N0yC-r-4" value="afterTax = prize * 0.15" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rs-ShA2vG2097O5uDx5C-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OyKGLVzcR5PwU6N0yC-r-5" target="Rs-ShA2vG2097O5uDx5C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OyKGLVzcR5PwU6N0yC-r-5" value="finalPayout = afterTax / amountOfWorkers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rs-ShA2vG2097O5uDx5C-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rs-ShA2vG2097O5uDx5C-1" target="Rs-ShA2vG2097O5uDx5C-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rs-ShA2vG2097O5uDx5C-1" value="print finalPayout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rs-ShA2vG2097O5uDx5C-9" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="770" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

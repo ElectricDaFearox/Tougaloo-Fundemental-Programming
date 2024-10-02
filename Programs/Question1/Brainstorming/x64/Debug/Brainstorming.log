@@ -1,0 +1,2 @@
+﻿Source.obj : error LNK2005: main already defined in Brainstorming.obj
+C:\Users\aluki\source\repos\Question1\x64\Debug\Brainstorming.exe : fatal error LNK1169: one or more multiply defined symbols found

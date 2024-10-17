@@ -4,8 +4,161 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WiKTY2bXS24eYnykBRTa-1" value="Specifications&lt;br&gt;&lt;br&gt;Input&lt;br&gt;&lt;div&gt;gender&lt;br&gt;mealCost&lt;br&gt;dayOfWeek&lt;/div&gt;&lt;div&gt;studentStatus&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Output&lt;br&gt;finalCost&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Processing&lt;br&gt;if(isItWednesday == &#39;Y&#39;)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if(gender == &#39;F&#39;)&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;discountrate = 0.25&lt;/div&gt;&lt;div&gt;else&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;discountrate = 0.20&lt;br&gt;else&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;discountrate = 0&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;discount = mealCost * discountrate&lt;br&gt;finalCost = mealCost - discount" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WiKTY2bXS24eYnykBRTa-1" value="Specifications&lt;br&gt;&lt;br&gt;Input&lt;br&gt;&lt;div&gt;gender&lt;br&gt;mealCost&lt;br&gt;isItWednesday&lt;br&gt;&lt;/div&gt;&lt;div&gt;studentStatusFull&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Output&lt;br&gt;finalCost&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Processing&lt;br&gt;if(isItWednesday == &#39;Y&#39;)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if(gender == &#39;F&#39;)&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;discountrate = 0.25&lt;/div&gt;&lt;div&gt;else&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;discountrate = 0.20&lt;br&gt;else&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;discountrate = 0&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;discount = mealCost * discountrate&lt;br&gt;finalCost = mealCost - discount" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1" width="180" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-2" target="WiKTY2bXS24eYnykBRTa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-3" target="WiKTY2bXS24eYnykBRTa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-3" value="Enter studentStatusFull" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-5" target="WiKTY2bXS24eYnykBRTa-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-5" value="Input studentStatusFull" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-7" target="WiKTY2bXS24eYnykBRTa-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-7" value="Enter isItWednesday" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-9" target="WiKTY2bXS24eYnykBRTa-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-9" value="Input isItWednesday" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-11" target="WiKTY2bXS24eYnykBRTa-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-11" value="Enter gender" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-38" target="WiKTY2bXS24eYnykBRTa-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-13" value="Input gender" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-15" target="WiKTY2bXS24eYnykBRTa-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-15" target="WiKTY2bXS24eYnykBRTa-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-15" value="isItWednesday" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="908" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1001" y="948" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-17" value="discount = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="918" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-19" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="918" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-20" target="WiKTY2bXS24eYnykBRTa-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-20" target="WiKTY2bXS24eYnykBRTa-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-20" value="studentStatusFull = &#39;Y&#39;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1040" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-22" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="968" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-23" target="WiKTY2bXS24eYnykBRTa-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-23" target="WiKTY2bXS24eYnykBRTa-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-23" value="Gender == &#39;F&#39;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1055" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="1095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-25" value="discountrate = 0.25" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1065" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-27" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="725" y="1058" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-28" target="WiKTY2bXS24eYnykBRTa-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-28" value="discountrate = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-30" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1168" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-31" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="1058" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="1285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-32" value="discountrate = 0.20" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-34" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="675" y="1168" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-35" target="WiKTY2bXS24eYnykBRTa-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-35" value="discount = mealCost * discountrate" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-37" value="Enter mealCost" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-13" target="WiKTY2bXS24eYnykBRTa-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="720" as="sourcePoint" />
+            <mxPoint x="480" y="908" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-38" value="Input mealCost" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-43" target="WiKTY2bXS24eYnykBRTa-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-43" value="finalCost = mealCost - discount" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiKTY2bXS24eYnykBRTa-45" target="WiKTY2bXS24eYnykBRTa-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-45" value="print finalCost" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiKTY2bXS24eYnykBRTa-47" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1890" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

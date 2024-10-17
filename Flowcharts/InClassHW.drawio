@@ -351,8 +351,8 @@
         </mxCell>
         <mxCell id="gsUPZD_KzbnvbsSDTKVf-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1120" y="650" as="sourcePoint" />
-            <mxPoint x="650" y="650" as="targetPoint" />
+            <mxPoint x="1120" y="880" as="sourcePoint" />
+            <mxPoint x="650" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gsUPZD_KzbnvbsSDTKVf-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -363,9 +363,15 @@
         </mxCell>
         <mxCell id="gsUPZD_KzbnvbsSDTKVf-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1120" y="650" as="sourcePoint" />
+            <mxPoint x="1120" y="880" as="sourcePoint" />
             <mxPoint x="1120" y="540" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gsUPZD_KzbnvbsSDTKVf-29" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="510" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gsUPZD_KzbnvbsSDTKVf-30" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="628" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

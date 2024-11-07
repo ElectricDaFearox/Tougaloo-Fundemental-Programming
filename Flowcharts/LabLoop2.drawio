@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.4" pages="2">
   <diagram name="Page-1" id="-EzXXWuJWvPDowSSc9r1">
-    <mxGraphModel dx="1512" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="637" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,6 +56,81 @@
         </mxCell>
         <mxCell id="ak61WxJVqqsJS2sEDFpB-16" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="315" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilIW5Nx3s9PxOQrWp6uq-1" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="428" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ilIW5Nx3s9PxOQrWp6uq-2" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="325" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7xFJq-Lld7l7MfEW8Zx7" name="Page-2">
+    <mxGraphModel dx="637" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GIj_ICSRoPPYo3m02Qsg-1" value="&lt;div&gt;Specifications&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Input&lt;br&gt;&lt;/div&gt;&lt;div&gt;number&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output&lt;/div&gt;&lt;div&gt;number&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Processing&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;do&lt;/span&gt; {&lt;br/&gt;        cout &amp;lt;&amp;lt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;Enter a number between 1 and 50: &quot;&lt;/span&gt;;&lt;br/&gt;        cin &amp;gt;&amp;gt; number;&lt;br/&gt;&lt;br/&gt;        &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (number &amp;lt; &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt; || number &amp;gt; &lt;span class=&quot;hljs-number&quot;&gt;50&lt;/span&gt;) {&lt;br/&gt;            cout &amp;lt;&amp;lt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;Invalid input. &quot;&lt;/span&gt;;&lt;br/&gt;        }&lt;br/&gt;    } &lt;span class=&quot;hljs-keyword&quot;&gt;while&lt;/span&gt; (number &amp;lt; &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt; || number &amp;gt; &lt;span class=&quot;hljs-number&quot;&gt;50&lt;/span&gt;);&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry width="180" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="GIj_ICSRoPPYo3m02Qsg-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIj_ICSRoPPYo3m02Qsg-2" target="GIj_ICSRoPPYo3m02Qsg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIj_ICSRoPPYo3m02Qsg-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GIj_ICSRoPPYo3m02Qsg-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIj_ICSRoPPYo3m02Qsg-3" target="GIj_ICSRoPPYo3m02Qsg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIj_ICSRoPPYo3m02Qsg-3" value="number = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIj_ICSRoPPYo3m02Qsg-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIj_ICSRoPPYo3m02Qsg-7" target="GIj_ICSRoPPYo3m02Qsg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_75olyAuUc0SxPAihwbW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIj_ICSRoPPYo3m02Qsg-7" target="_75olyAuUc0SxPAihwbW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIj_ICSRoPPYo3m02Qsg-7" value="&lt;span class=&quot;hljs-keyword&quot;&gt;do&lt;/span&gt; {&lt;br/&gt;        cout &amp;lt;&amp;lt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;Enter a number between 1 and 50: &quot;&lt;/span&gt;;&lt;br/&gt;        cin &amp;gt;&amp;gt; number;&lt;br/&gt;&lt;br/&gt;        &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (number &amp;lt; &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt; || number &amp;gt; &lt;span class=&quot;hljs-number&quot;&gt;50&lt;/span&gt;) {&lt;br/&gt;            cout &amp;lt;&amp;lt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;Invalid input. &quot;&lt;/span&gt;;&lt;br/&gt;        }&lt;br/&gt;    } &lt;span class=&quot;hljs-keyword&quot;&gt;while&lt;/span&gt; (number &amp;lt; &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt; || number &amp;gt; &lt;span class=&quot;hljs-number&quot;&gt;50&lt;/span&gt;);" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="288" y="310" width="275" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GIj_ICSRoPPYo3m02Qsg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIj_ICSRoPPYo3m02Qsg-9" target="GIj_ICSRoPPYo3m02Qsg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIj_ICSRoPPYo3m02Qsg-9" value="Enter number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_75olyAuUc0SxPAihwbW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_75olyAuUc0SxPAihwbW-2" target="GIj_ICSRoPPYo3m02Qsg-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1045" />
+              <mxPoint x="270" y="718" />
+              <mxPoint x="268" y="718" />
+              <mxPoint x="268" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_75olyAuUc0SxPAihwbW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIj_ICSRoPPYo3m02Qsg-11" target="_75olyAuUc0SxPAihwbW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIj_ICSRoPPYo3m02Qsg-11" value="Input number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="875" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIj_ICSRoPPYo3m02Qsg-13" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="620" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_75olyAuUc0SxPAihwbW-2" value="while (number &amp;lt; 1 || number &amp;gt; 50)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="1015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_75olyAuUc0SxPAihwbW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_75olyAuUc0SxPAihwbW-4" target="_75olyAuUc0SxPAihwbW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_75olyAuUc0SxPAihwbW-4" value="print number" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_75olyAuUc0SxPAihwbW-6" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="395" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
